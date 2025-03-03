@@ -1,0 +1,22 @@
+.logo{
+    width: 100px;
+}
+
+header{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 80px;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
