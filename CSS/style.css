@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .logo{
     width: 100px;
 }
@@ -8,8 +12,8 @@ header{
 
 nav li{
     display: inline;
-    margin: 80px;
-    font-size: 20px;
+    padding: 60px;
+    font-size: 25px;
 }
 
 nav a{
@@ -19,4 +23,52 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+}
+
+main{
+    background-color: #ffffff;
+    color: black;
+}
+
+.welcome{
+    padding: 20px;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+
+.courses{
+    padding: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.welcome h1, .courses h2 {
+    color: #005a9c;
+}
+
+.infoCurso img{
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+
+.infoCurso{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+.image{
+   width: 600px;
+   border: 2px solid black;
 }
